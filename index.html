@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>My Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Start Bootstrap</a>
+      <a  id="darkTheme" class="btn btn-dark btn-outline-light" href="#">تم شب 🌙</a>
+      <a  id="lightTheme" class="btn btn-light btn-outline-dark" href="#">تم روز 🌞</a>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">وب اپلیکیشن تمرین کدنویسی جاوا اسکریپت</h1>
+          <a class="btn btn-lg btn-outline-warning">تماس با ما</a>
+          <a class="btn btn-lg btn-outline-danger">درباره ما</a>
+        </div>
+        <!-- <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <form>
+            <div class="form-row">
+              <div class="col-12 col-md-9 mb-2 mb-md-0">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+              </div>
+              <div class="col-12 col-md-3">
+                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+              </div>
+            </div>
+          </form>
+        </div> -->
+        
+      </div>
+    </div>
+  </header>
+  <marquee behavior="30">این وب اپلیکیشن فقط برای تمرین و تست کدنویسی جاوااسکریپت و زبان های وب است</marquee>
+<br>
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">فرم ایجاد تسک</h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form id="taskForm">
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input id="intask" type="text" class="form-control form-control-lg" placeholder="تسک خود را وارد نماید...">
+                </div>
+                <div class="col-12 col-md-3">
+                  <button id="subtask" type="submit" class="btn btn-block btn-lg btn-success">افزودن تسک</button>
+                </div>
+              </div>
+            </form>
+        <br>
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">لیست تسک های ایجاد شده</h2>
+          </div>
+          <div class="col-12 col-9 mb-2 mb-md-2">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <button type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <input type="checkbox" aria-label="Checkbox for following text input">
+                </div>
+              </div>
+              <input type="text" class="form-control" aria-label="Text input with checkbox">
+            </div>
+          </div>
+            <div class="col-12 col-9 mb-2 mb-md-2">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <button type="button" class="close" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+            </div>
+
+            <div class="col-12 col-9 mb-2 mb-md-2">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <button type="button" class="close" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <input type="checkbox" aria-label="Checkbox for following text input">
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+              </div>
+            </div>
+
+        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!-- Icons Grid -->
+  <section class="features-icons text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-primary"></i>
+            </div>
+            <h3>طراحی ریسپانسیو</h3>
+            <p class="lead mb-0">قابلیت نمایش ریسپاسیو در تمام دستگاه ها</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-primary"></i>
+            </div>
+            <h3>طراحی با بوت استرپ 4</h3>
+            <p class="lead mb-0">استفاده بهینه و تمام قابلیت های بوت استرپ 4</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-primary"></i>
+            </div>
+            <h3>سرعت عملکرد بالا</h3>
+            <p class="lead mb-0">قدرت گرفته از زبان جاوا اسکریپت برای سرعت بهینه</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+ 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item">
+              <a href="#">About</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; My Theme 2021. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-telegram fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-github fa-2x fa-fw"></i>
+              </a>
+            </li>
+            <li class="list-inline-item mr-3">
+              <a href="#">
+                <i class="fab fa-instagram fa-2x fa-fw"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/main.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
